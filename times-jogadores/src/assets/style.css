@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+  margin: 2rem 0;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+}
+.form-input input {
+  width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0 1rem;
+  height: 40px;
+}
+.form-input button {
+  height: 40px;
+  margin-left: 1%;
+  background-color: #2a539b;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #2a539b;
+  border-radius: 10px;
+  width: 15%;
+}
+.list-itens {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+table {
+  width: 40%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1.1rem;
+}
+table thead {
+  background-color: black;
+  color: white;
+}
+table thead th {
+  font-weight: bolder;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #2a539b;
+  color: white;
+}
